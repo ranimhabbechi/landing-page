@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'inter' , 'sans-serif';
+
+}
+
+.wrapper{
+    position: relative ;
+    height: 100vh;
+}
