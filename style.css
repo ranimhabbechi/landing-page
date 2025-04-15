@@ -151,3 +151,18 @@ ul li:hover .submenu{
 .pic-5{
     background-image: url('../landing-page/images/plant5.jpg');
 }
+
+.slider.active{
+    width: 50%;
+    border-radius: 50%;
+    animation: move-down 1.5s ease-in infinite alternate-reverse;
+}
+
+@keyframes move-down {
+    from{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
